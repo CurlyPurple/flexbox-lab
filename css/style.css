@@ -38,15 +38,11 @@
     display: flex;
     flex-direction: column;
   }
-
-  input {
-    display: flex;
-  }
-
+  
   #trending {
     display: flex;
+    gap: 15px;
   }
-  
   p {
     margin: 0;
   }
@@ -85,6 +81,9 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   nav button {
@@ -105,6 +104,8 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
@@ -114,6 +115,8 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   #subnav button {
